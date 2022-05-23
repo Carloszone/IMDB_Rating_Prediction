@@ -96,7 +96,8 @@ num_user_for_reviews	0.060038
 2. the number of voted users, duration, budget, released year, and the number of users for reviews have the highest importance. the effect of Social newwork data is less than the movie properties data
 
 ## Future Work
-- Data. Choose high quality dataset
+- Data
+1. Choose high quality dataset
 - Feature engineering
 1. check numeric variables' distribution. If they don't follow normal distribution, implement some transformations like box-cox transformation before standardization.
 2. try other encoding technique for high cardinality columns
@@ -105,4 +106,4 @@ num_user_for_reviews	0.060038
 2. try other ensemble methods like bagging and Boosting
 3. implment grid search for the second layer model in stacking ensemble methods
 - Evaluation
-- use multiple metric to evaluate model performance
+1. use multiple metric to evaluate model performance
