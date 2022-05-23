@@ -7,10 +7,12 @@ Code file:
 2. Extracting_IMDB_Data.ipynb
 3. Data Preprocessing.ipynb
 4. Model Selection.ipynb
+
 data file:
 1. IMDA_DATA.csv
 2. dependent_var.csv
 3. features.csv
+
 other:
 1. Machine Learning Project Report.pdf
 2. README.md
