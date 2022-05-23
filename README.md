@@ -2,6 +2,19 @@
 Predict movies' IMDB rating score with machine learning techniques
 by Liuzhao 'Carlos' Tang
 
+Code file:
+1. Exploratory Data Analysis.ipynb
+2. Extracting_IMDB_Data.ipynb
+3. Data Preprocessing.ipynb
+4. Model Selection.ipynb
+data file:
+1. IMDA_DATA.csv
+2. dependent_var.csv
+3. features.csv
+other:
+1. Machine Learning Project Report.pdf
+2. README.md
+
 ## Introduction
 the project is to predict the IMDA score of a movie based on its properties and social network data with machine learning techniques.
  
