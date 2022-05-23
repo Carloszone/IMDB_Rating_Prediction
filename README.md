@@ -53,15 +53,32 @@ The independent variables have two parts: properties variables and social networ
 Blending Ensemble Model had the lowest MES(0.645)
 ```
 Model	                              MSE
-Lasso Regression	            0.912
-SVM	                            1.707
-Random Forest	                    0.728
+Lasso Regression	            0.911
+SVM	                            1.292
+Random Forest	                    0.722
 XGB	                            0.769
-Blending Ensemble Model	            0.645
-Stacking Ensemble Model	            0.665
+Blending Ensemble Model	            0.644
+Stacking Ensemble Model	            0.653
+```
+
+Top 5 important features are: 
+1. the number of voted users
+2. the movie duration
+3. the movie budget
+4. the released year of movie
+5. the number of users for reviews.
+
+```
+Feature name            Importance
+num_voted_users	        0.211623
+duration	        0.126319
+budget	                0.069417
+title_year	        0.065868
+num_user_for_reviews	0.060038
 ```
 ## Conclusion
 1. The blending ensemble model has the best performance score. The finding suggests to select the model to deploy into production.
+2. the number of voted users, duration, budget, released year, and the number of users for reviews have the highest importance. the effect of Social newwork data is less than the movie properties data
 
 ## Future Work
 - Data. Choose high quality dataset
